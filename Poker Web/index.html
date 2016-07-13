@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<meta name="keyword" content="" />
+		<meta name="description" content="" />
+		<link type="text/css" href="css/style.css" rel="stylesheet" />	
+		<link type="text/css" href="css/cards.css" rel="stylesheet" />	
+		<meta charset="UTF-8"/>
+		
+		<title>Poker</title>
+	</head>
+	<body>	
+		<a href = "#" onclick="onePair()">click me</a>
+		<div class="content">
+			<div class="header">
+				<div class="headerWrapper">
+					<div class="headerCards"><div class="cardAdd"><input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input></div></div>
+					<div class="headerCards mgr30"><div class="cardAdd"><input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input></div></div>
+					<div class="headerCards"><div class="cardAdd"><input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input></div></div>
+					<div class="headerCards"><div class="cardAdd"><input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input></div></div>
+					<div class="headerCards mg0"><div class="cardAdd"><input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input></div></div>
+				<div class="clear"></div>
+				</div>	
+			</div>
+			<div class="monitor ">
+				<div class="banner monitorColor"></div>
+				<div class="monitorWrapper monitorColor">
+					<div class="display"></div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="firstLast">
+					<div class="tables fll" >
+						<div class="tableCards" id="card1">						
+							<div class="cardAdd"><input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input></div>							
+						</div>
+						<div class="tableCards flr" id="card2">
+							<div class="cardAdd"><input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input></div>	
+						</div>
+						<div class="clear"></div>	
+						<div class="info">1</div>
+					</div>				
+					<div class="tables flr mg0">
+						<div class="tableCards" id="card11">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="tableCards flr" id="card12">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="clear"></div>	
+						<div class="info">6</div>
+					</div>
+				<div class="clear"></div>
+				</div>	
+				<div class="middle">
+					<div class="tables">
+						<div class="tableCards" id="card3">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="tableCards flr" id="card4">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="clear"></div>	
+						<div class="info">2</div>
+					</div>
+					<div class="tables">
+						<div class="tableCards" id="card5">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="tableCards flr" id="card6">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="clear"></div>	
+						<div class="info">3</div>
+					</div>
+					<div class="tables">
+						<div class="tableCards" id="card7">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="tableCards flr" id="card8">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="clear"></div>	
+						<div class="info">4</div>
+					</div>
+					<div class="tables mg0">
+						<div class="tableCards" id="card9">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="tableCards flr" id="card10">
+							<div class="cardAdd">								
+								<input type="text" maxlength="2" placeholder="Choose" onkeypress="return Check.pressEnter(event,this)" onkeyup = "Check.chooseCard(this)"></input>	
+							</div>
+						</div>
+						<div class="clear"></div>	
+						<div class="info">5</div>
+					</div>
+				<div class="clear"></div>	
+				</div>	
+			
+			</div>
+			
+		</div>	
+		
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/calculator.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+

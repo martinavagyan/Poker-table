@@ -1,0 +1,298 @@
+.footerImg
+{
+	background-image:url(../img/2C.svg);
+	background-repeat:no-repeat;
+	width: 107.5px;
+	height: 150px;
+	background-size:360px;
+	background-position:center;
+	box-shadow: 0px 0px 10px;
+	cursor:pointer;
+	-webkit-animation:fadeinfooter 0.3s;	
+}
+@-webkit-keyframes fadeinfooter
+{
+	from {background-size:1px;}
+	to {background-size:360px;}
+}
+.headerImg
+{
+	background-repeat:no-repeat;
+	width: 143px;
+	height: 200px;
+	background-size:480px;
+	background-position:center;
+	box-shadow: 0px 0px 10px;
+	cursor:pointer;
+	-webkit-animation:fadeinheader 0.3s;
+}
+@-webkit-keyframes fadeinheader
+{
+	from {background-size:1px;}
+	to {background-size:480px;}
+}
+.footerImg:hover span
+{
+	 display: inline-block;
+}
+.headerImg:hover span
+{
+	 display: inline-block;
+}
+.removeBtn
+{
+	display:none;
+	position:relative;
+	left:90%;
+	top:-10px;	
+	cursor:pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius:100%;
+    background: #605F61;
+    font-size: 25px;
+    font-weight: bold;   
+    line-height: 0px;
+    padding: 9px 2px;
+	-webkit-animation:removeBtnAnim 1s forwards;	
+	-webkit-animation-delay:0.3s;
+	opacity:0;	
+	transition: 0.5s;
+}
+.removeBtn:hover{
+	background:rgba(245, 45, 45, 1);
+	border-color: white;
+}
+.removeBtn:before {	
+    content: "×";
+}
+@-webkit-keyframes removeBtnAnim
+{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+.D2C
+{	
+	background-image:url(../img/deck/Clubs/2C.svg);
+}
+.D3C
+{	
+	background-image:url(../img/deck/Clubs/3C.svg);
+}
+.D4C
+{	
+	background-image:url(../img/deck/Clubs/4C.svg);
+}
+.D5C
+{	
+	background-image:url(../img/deck/Clubs/5C.svg);
+}
+.D6C
+{	
+	background-image:url(../img/deck/Clubs/6C.svg);
+}
+.D7C
+{	
+	background-image:url(../img/deck/Clubs/7C.svg);
+}
+.D8C
+{	
+	background-image:url(../img/deck/Clubs/8C.svg);
+}
+.D9C
+{	
+	background-image:url(../img/deck/Clubs/9C.svg);
+}
+.D10C
+{	
+	background-image:url(../img/deck/Clubs/10C.svg);
+}
+.DJC
+{	
+	background-image:url(../img/deck/Clubs/JC.svg);
+}
+.DQC
+{	
+	background-image:url(../img/deck/Clubs/QC.svg);
+}
+.DKC
+{	
+	background-image:url(../img/deck/Clubs/KC.svg);
+}
+.DAC
+{	
+	background-image:url(../img/deck/Clubs/AC.svg);
+}
+
+
+
+
+
+.D2D
+{	
+	background-image:url(../img/deck/Diamonds/2D.svg);
+}
+.D3D
+{	
+	background-image:url(../img/deck/Diamonds/3D.svg);
+}
+.D4D
+{	
+	background-image:url(../img/deck/Diamonds/4D.svg);
+}
+.D5D
+{	
+	background-image:url(../img/deck/Diamonds/5D.svg);
+}
+.D6D
+{	
+	background-image:url(../img/deck/Diamonds/6D.svg);
+}
+.D7D
+{	
+	background-image:url(../img/deck/Diamonds/7D.svg);
+}
+.D8D
+{	
+	background-image:url(../img/deck/Diamonds/8D.svg);
+}
+.D9D
+{	
+	background-image:url(../img/deck/Diamonds/9D.svg);
+}
+.D10D
+{	
+	background-image:url(../img/deck/Diamonds/10D.svg);
+}
+.DJD
+{	
+	background-image:url(../img/deck/Diamonds/JD.svg);
+}
+.DQD
+{	
+	background-image:url(../img/deck/Diamonds/QD.svg);
+}
+.DKD
+{	
+	background-image:url(../img/deck/Diamonds/KD.svg);
+}
+.DAD
+{	
+	background-image:url(../img/deck/Diamonds/AD.svg);
+}
+
+
+
+
+
+
+.D2H
+{	
+	background-image:url(../img/deck/Hearts/2H.svg);
+}
+.D3H
+{	
+	background-image:url(../img/deck/Hearts/3H.svg);
+}
+.D4H
+{	
+	background-image:url(../img/deck/Hearts/4H.svg);
+}
+.D5H
+{	
+	background-image:url(../img/deck/Hearts/5H.svg);
+}
+.D6H
+{	
+	background-image:url(../img/deck/Hearts/6H.svg);
+}
+.D7H
+{	
+	background-image:url(../img/deck/Hearts/7H.svg);
+}
+.D8H
+{	
+	background-image:url(../img/deck/Hearts/8H.svg);
+}
+.D9H
+{	
+	background-image:url(../img/deck/Hearts/9H.svg);
+}
+.D10H
+{	
+	background-image:url(../img/deck/Hearts/10H.svg);
+}
+.DJH
+{	
+	background-image:url(../img/deck/Hearts/JH.svg);
+}
+.DQH
+{	
+	background-image:url(../img/deck/Hearts/QH.svg);
+}
+.DKH
+{	
+	background-image:url(../img/deck/Hearts/KH.svg);
+}
+.DAH
+{	
+	background-image:url(../img/deck/Hearts/AH.svg);
+}
+
+
+
+
+
+.D2S
+{	
+	background-image:url(../img/deck/Spades/2S.svg);
+}
+.D3S
+{	
+	background-image:url(../img/deck/Spades/3S.svg);
+}
+.D4S
+{	
+	background-image:url(../img/deck/Spades/4S.svg);
+}
+.D5S
+{	
+	background-image:url(../img/deck/Spades/5S.svg);
+}
+.D6S
+{	
+	background-image:url(../img/deck/Spades/6S.svg);
+}
+.D7S
+{	
+	background-image:url(../img/deck/Spades/7S.svg);
+}
+.D8S
+{	
+	background-image:url(../img/deck/Spades/8S.svg);
+}
+.D9S
+{	
+	background-image:url(../img/deck/Spades/9S.svg);
+}
+.D10S
+{	
+	background-image:url(../img/deck/Spades/10S.svg);
+}
+.DJS
+{	
+	background-image:url(../img/deck/Spades/JS.svg);
+}
+.DQS
+{	
+	background-image:url(../img/deck/Spades/QS.svg);
+}
+.DKS
+{	
+	background-image:url(../img/deck/Spades/KS.svg);
+}
+.DAS
+{	
+	background-image:url(../img/deck/Spades/AS.svg);
+}
