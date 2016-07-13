@@ -1,4 +1,7 @@
-//initaly I created chack to check if the charachters are specified
+/**
+	Author: Martin Avagyan
+*/
+
 var Check ={
 		GiveIdToTableCards: function(tableCardElem,cardId)
 		{
